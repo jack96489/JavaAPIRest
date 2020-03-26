@@ -1,0 +1,207 @@
+JFDML JFormDesigner: "6.0.6.0.190" Java: "1.8.0_241" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+			"$columnCount": 4
+			"$rowCount": 8
+		} ) {
+			name: "panel"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "codicaLabel"
+				"text": "CODICE"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"anchor": 8
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Titolo"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 1
+				"anchor": 8
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Anno produzione"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 2
+				"anchor": 8
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Regista"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 3
+				"anchor": 8
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Nazionalità"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 4
+				"anchor": 8
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Genere"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 5
+				"anchor": 8
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Durata"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 6
+				"anchor": 8
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldCodice"
+				"editable": false
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"colSpan": 3
+				"anchor": 8
+				"fill": 1
+				"hSizePolicy": 6
+				"vSizePolicy": 0
+				"preferredSize": new java.awt.Dimension( 150, -1 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldTitolo"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"row": 1
+				"colSpan": 3
+				"anchor": 8
+				"fill": 1
+				"hSizePolicy": 6
+				"vSizePolicy": 0
+				"preferredSize": new java.awt.Dimension( 150, -1 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldAnno"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"row": 2
+				"colSpan": 3
+				"anchor": 8
+				"fill": 1
+				"hSizePolicy": 6
+				"vSizePolicy": 0
+				"preferredSize": new java.awt.Dimension( 150, -1 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldRegista"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"row": 3
+				"colSpan": 3
+				"anchor": 8
+				"fill": 1
+				"hSizePolicy": 6
+				"vSizePolicy": 0
+				"preferredSize": new java.awt.Dimension( 150, -1 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldNazionalita"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"row": 4
+				"colSpan": 3
+				"anchor": 8
+				"fill": 1
+				"hSizePolicy": 6
+				"vSizePolicy": 0
+				"preferredSize": new java.awt.Dimension( 150, -1 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldGenere"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"row": 5
+				"colSpan": 3
+				"anchor": 8
+				"fill": 1
+				"hSizePolicy": 6
+				"vSizePolicy": 0
+				"preferredSize": new java.awt.Dimension( 150, -1 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textFieldDurata"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"row": 6
+				"colSpan": 3
+				"anchor": 8
+				"fill": 1
+				"hSizePolicy": 6
+				"vSizePolicy": 0
+				"preferredSize": new java.awt.Dimension( 150, -1 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "INSERISCIButton"
+				"text": "INSERISCI"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"row": 7
+				"fill": 1
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "ELIMINAButton"
+				"text": "ELIMINA"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 3
+				"row": 7
+				"fill": 1
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "MODIFICAButton"
+				"text": "MODIFICA"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 2
+				"row": 7
+				"fill": 1
+				"vSizePolicy": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 500, 400 )
+		} )
+	}
+}

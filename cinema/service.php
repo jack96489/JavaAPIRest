@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             property_exists($film, 'Durata')
         ) {
             $stmt = $conn->prepare("INSERT INTO film (Titolo, AnnoProduzione, Nazionalita, Regista, Genere, Durata) VALUES (?,?,?,?,?,?)");
-            $stmt->bind_param("sisssi", $film->Titolo, $film->AnnoProduzione, $film->Nazionalita, $film->Regista, $film->Genere, $film->Durata,);
+            $stmt->bind_param("sisssi", $film->Titolo, $film->AnnoProduzione, $film->Nazionalita, $film->Regista, $film->Genere, $film->Durata);
 
 
             if ($stmt->execute())
